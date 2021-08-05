@@ -14,14 +14,14 @@
 
 <body>
     <header>
-        <h1 class="display-1 text-center my-3">
+        <h1 class="display-1 text-center mb-5 p-3 bg-success text-white">
             Temperature Conversion
         </h1>
     </header>
     <main>
         <div class="row">
             <!-- c to f start -->
-            <div class="col-lg-6 text-center border-end d-flex flex-column align-items-center">
+            <div class="col-lg-6 mb-5 p-2 text-center border-end d-flex flex-column align-items-center">
                 <h2 class="display-4">
                     Degree Celcius to Fahrenheit
                 </h2>
@@ -31,6 +31,17 @@
                 <p class="display-6" id="c-to-f"></p>
             </div>
             <!-- c to f end -->
+            <!-- f to c start -->
+            <div class="col-lg-6 mb-5 p-2 text-center border-end d-flex flex-column align-items-center">
+                <h2 class="display-4">
+                    Degree Fahrenheit to Celcius
+                </h2>
+                <button href="#" class="btn btn-outline-danger my-3" onclick="f_c_convert()">
+                    Click here to Calculate
+                </button>
+                <p class="display-6" id="f-to-c"></p>
+            </div>
+            <!-- f to c end -->
         </div>
     </main>
     <footer>
